@@ -17,9 +17,9 @@ public class Joguin {
                 System.out.println("Parabéns, você acertou o número em " + tentativas + " tentativas!");
                 break; // interrompe o loop while
             } else if (numeroGerado < numeroDigitado) {
-                System.out.println("O número digitado é maior que o número gerado.");
-            } else {
                 System.out.println("O número digitado é menor que o número gerado.");
+            } else {
+                System.out.println("O número digitado é maior que o número gerado.");
             }
         }
 
